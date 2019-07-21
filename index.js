@@ -4,6 +4,7 @@ const SimpleLightAccessory = require('./lib/SimpleLightAccessory');
 const MultiOutletAccessory = require('./lib/MultiOutletAccessory');
 const CustomMultiOutletAccessory = require('./lib/CustomMultiOutletAccessory');
 const RGBTWLightAccessory = require('./lib/RGBTWLightAccessory');
+const RGBTWGlobeLightAccessory = require('./lib/RGBTWGlobeLightAccessory');
 const TWLightAccessory = require('./lib/TWLightAccessory');
 const TWGlobeLightAccessory = require('./lib/TWGlobeLightAccessory');
 const AirConditionerAccessory = require('./lib/AirConditionerAccessory');
@@ -19,6 +20,7 @@ const CLASS_DEF = {
     outlet: OutletAccessory,
     simplelight: SimpleLightAccessory,
     rgbtwlight: RGBTWLightAccessory,
+    rgbtwglobelight: RGBTWGlobeLightAccessory,
     twlight: TWLightAccessory,
     twglobelight: TWGlobeLightAccessory,
     multioutlet: MultiOutletAccessory,
